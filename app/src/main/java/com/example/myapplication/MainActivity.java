@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+        wypiszZawodnikow();
     }
 
     private void wypiszZawodnikow(){
@@ -127,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
                                 new Runnable() {
                                     @Override
                                     public void run() {
-                                        zawodnicy.add(zawodnik);
+
                                         Toast.makeText(MainActivity.this, "Dodano do bazy", Toast.LENGTH_SHORT).show();
 
                                     }

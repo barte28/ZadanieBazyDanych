@@ -82,10 +82,10 @@ public class Zawodnik {
     public String toString() {
         return "Zawodnik"+
                 id +
-                ", imie='" + imie +
-                ", nazwisko='" + nazwisko +
+                ", imie=" + imie +
+                ", nazwisko=" + nazwisko +
                 ", wzrost=" + wzrost +
                 ", wiek=" + wiek +
-                ", pozycja='" + pozycja;
+                ", pozycja=" + pozycja;
     }
 }
