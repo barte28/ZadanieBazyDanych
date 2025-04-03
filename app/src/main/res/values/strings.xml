@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="pozycje">
+    <item>Rozgrywający</item>
+    <item>Rzucający obrońca</item>
+    <item>Niski skrzydłowy</item>
+    <item>Silny skrzydłowy</item>
+    <item>Środkowy</item>
+    </string-array>
+</resources>
